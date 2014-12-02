@@ -8,4 +8,6 @@
 	<polygon fill="#D50202" points="504.6,50.8 495.4,50.8 475,30.4 484.2,30.4"/>
 	<polygon fill="#0051A3" points="515.8,30.4 515.8,39.6 495.4,60 495.4,50.8"/>
 	<polygon fill="#DFBD3B" points="525,39.6 515.8,39.6 500,23.8 504.6,19.2"/>
+	<text x="506" y="85" fill="black" style="text-anchor: end" font-size="20px">HTL</text>
+	<text x="507" y="85" fill="blue" style="text-anchor: start" font-size="20px">inn</text>
 </svg>
