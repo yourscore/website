@@ -44,11 +44,13 @@ a img
     
     #navigation_container
     {
-        margin-top: 110px;
+        margin-top: 100px;
         margin-bottom: 50px;
-        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
         height: 8800px;
-        background-color: #932478;
+        background-color: #489D40;
     } 
     
     #bottom_container
