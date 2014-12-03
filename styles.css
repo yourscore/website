@@ -45,24 +45,17 @@ a img
 		.header_de1
 		{
 			height: 30px;
-<<<<<<< HEAD
-			width: 200px; 
+         	width: 200px; 
 			background: url(img/el.svg);
 		    background-repeat: no-repeat;
-=======
-			width: 200px;
-			background: url(img/el.svg);
-			background-repeat: no-repeat;
->>>>>>> origin/master
-		}
+		    
 		
 		.header_de2
 		{
-			height: 30px;
+            height: 30px;
 			width: 200px;
 			background: url(img/et.svg);
-<<<<<<< HEAD
-		    background-repeat: no-repeat;
+            background-repeat: no-repeat;
 		}
 		
 		.header_de3
@@ -85,21 +78,18 @@ a img
 			width: 200px;
 			background: url(img/ma.svg);
 		    background-repeat: no-repeat;
-=======
-			background-repeat: no-repeat;
->>>>>>> origin/master
+
 		}
 		
 		.header_de1:hover
 		{
 			height: 30px;
-<<<<<<< HEAD
-			width: 200px;  
+            width: 200px;  
 			background: #FF0048;  
 			background-repeat: no-repeat;
 		} 
 		
-			.header_de2:hover
+		.header_de2:hover
 		{
 			height: 30px;
 			width: 200px;
@@ -107,7 +97,7 @@ a img
 			background-repeat: no-repeat;
 		}
 		
-			.header_de3:hover
+		.header_de3:hover
 		{
 			height: 30px;
 			width: 200px;
@@ -115,7 +105,7 @@ a img
 			background-repeat: no-repeat;
 		}
 		
-			.header_de4:hover
+		.header_de4:hover
 		{
 			height: 30px;
 			width: 200px;
@@ -123,11 +113,9 @@ a img
 			background-repeat: no-repeat;
 		}
 		
-			.header_de5:hover
+		.header_de5:hover
 		{
 			height: 30px;
-=======
->>>>>>> origin/master
 			width: 200px;
 			background: #FF0048;
 			background-repeat: no-repeat;
