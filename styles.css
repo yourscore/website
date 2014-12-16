@@ -42,93 +42,86 @@ a img
             background: url(img/head.svg) no-repeat;    
         }    
 		   
-		.navigation_bar_background
-		{
-            height: 30px;
-            width: 1000px;
-            background: #B4B4B4 ;
-            opacity:0.90;          
-        }
-		   
 		.header_de1
 		{
 			height: 30px;
          	width: 200px; 
-			background: url(img/el.svg);     
-		    background-repeat: no-repeat;  
 		}
-		    
+		
+		.header_de1:hover  .de1_bg
+		{
+			fill: rgba(255, 228, 7,0.9);
+		}
+		
+		.de1_bg
+		{
+			fill: rgba(180,180,180,0.9);
+		}
 		
 		.header_de2
 		{
             height: 30px;
 			width: 200px;
-			background: url(img/et.svg);  
-            background-repeat: no-repeat;
 		}
-
+		
+		.header_de2:hover .de2_bg
+		{
+			fill: rgba(213, 2, 2,0.9);
+		}
+		
+		.de2_bg
+		{
+			fill: rgba(180,180,180,0.9);
+		}    
+		
 		.header_de3
 		{
 			height: 30px;
 			width: 200px;
-			background: url(img/al.svg);
-		    background-repeat: no-repeat;
 		}
+		
+		.header_de3:hover .de3_bg
+		{
+			fill: rgba(128, 128, 0,0.9);
+		}
+		
+		.de3_bg
+		{
+			fill: rgba(180,180,180,0.9);
+		}    
+		
+		
 		.header_de4
 		{
 			height: 30px;
 			width: 200px;
-			background: url(img/wi.svg);
-		    background-repeat: no-repeat;
 		}
+		
+		.header_de4:hover .de4_bg
+		{
+			fill: rgba(0, 81, 163,0.9);
+		}
+		
+		.de4_bg
+		{
+			fill: rgba(180,180,180,0.9);
+		}    
+		
 		.header_de5
 		{
 			height: 30px;
 			width: 200px;
-			background: url(img/ma.svg);
-		    background-repeat: no-repeat;
-
-		}
-
-		.header_de1:hover
-		{
-			height: 30px;
-            width: 200px;  
-			background-color: #ffe407;         
-			background-repeat: no-repeat;
-		} 
-		
-		.header_de2:hover
-		{
-			height: 30px;
-			width: 200px;
-			background-color: #d50202;
-			background-repeat: no-repeat;
 		}
 		
-		.header_de3:hover
+		.header_de5:hover .de5_bg
 		{
-			height: 30px;
-			width: 200px;
-			background-color: #808000;
-			background-repeat: no-repeat;
+			fill: rgba(41, 178, 131,0.9);
 		}
 		
-		.header_de4:hover
+		.de5_bg
 		{
-			height: 30px;
-			width: 200px;
-			background-color: #0051a3;
-			background-repeat: no-repeat;
-		}
-		
-		.header_de5:hover
-		{
-			height: 30px;
-			width: 200px;
-			background-color: #29b283;
-			background-repeat: no-repeat;
-		}
+			fill: rgba(180,180,180,0.9);
+		}    
     
     #navigation_container
 	{
