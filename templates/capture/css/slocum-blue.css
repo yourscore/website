@@ -1,0 +1,260 @@
+/**
+ * Slocum Blue Color Scheme
+ */
+
+a{
+	color: #3c639a;
+}
+
+hr {
+	border-bottom: 1px solid #6c92c7;
+}
+
+.wp-caption, .gallery-caption {
+	background: #e7f2ff;
+	border: 1px solid #cedff3;
+}
+
+blockquote {
+	background: #e8f2fe;
+}
+
+blockquote:before, blockquote:after {
+	color: #cedff3;
+}
+
+th {
+	background: #e8f2fe;
+	border: 1px solid #cedff3;
+}
+
+td {
+	border: 1px solid #cedff3;
+}
+
+input, textarea {
+	border: 1px solid #bbd0e9;
+}
+
+.post-content a, .widget a {
+	border-bottom-color: transparent;
+}
+
+.post-content a:hover, .widget a:hover {
+	color: #123566;
+	border-bottom-color: #123566;
+}
+
+body > .social .social-media-icons a, body > .social .social-media-button {
+	color: #3c639a;
+	background: #fff;
+}
+
+body > .social .social-media-icons a:hover, body > .social .social-media-button:hover {
+	color: #123566;
+	background: #e8f2fe;
+}
+
+.primary-nav ul li, .primary-nav-container ul li {
+	border-left: 1px solid #cedff3;
+}
+
+.primary-nav ul li a, .primary-nav-container ul li a {
+	color: #3c639a;
+}
+
+.primary-nav ul li a:hover, .primary-nav ul li.current_page_item a, .primary-nav-container ul li a:hover, .primary-nav-container ul li.current_page_item a {
+	color: #123566;
+}
+
+.primary-nav ul li.page_item_has_children:after, .primary-nav-container ul li.menu-item-has-children:after {
+	border-top: 6px solid #bbd0e9;
+}
+
+.primary-nav ul ul.children li.page_item_has_children:after, .primary-nav-container ul ul.sub-menu li.menu-item-has-children:after {
+	border-left: 6px solid #bbd0e9;
+}
+
+.primary-nav-container ul ul.sub-menu, .primary-nav ul ul.children {
+	border: 1px solid #cedff3;
+}
+
+section.breadcrumb, section.breadcrumb a {
+	color: #3c639a;
+	background: #e8f2fe;
+}
+
+section.breadcrumb {
+	background: #e8f2fe;
+}
+
+section.breadcrumb a:hover {
+	color: #123566;
+}
+
+.archive-title .page-title, .search-title .page-title {
+	color: #30568b;
+}
+
+.post-title, .page-title {
+	color: #3c639a;
+}
+
+.post-title a {
+	color: #3c639a;
+}
+
+.post-title a:hover, .post-date a:hover {
+	color: #123566;
+	background: #f9f9fc;
+}
+
+a.more-link, a.read-more, a.post-edit-link, .button,
+.post-navigation .previous-posts a, .post-navigation .next-posts a,
+.comment-reply-link, .comment-navigation a, #cancel-comment-reply-link, .comments-container #submit,
+.post-content .button, .widget .button, .post-content a.button, .widget a.button,
+button, input[type=reset], input[type=submit] {
+	color: #fff;
+	background: #3c639a;
+}
+
+a.more-link:hover, a.read-more:hover, a.post-edit-link:hover, .button:hover,
+.post-navigation .previous-posts a:hover, .post-navigation .next-posts a:hover,
+.comment-reply-link:hover, .comment-navigation a:hover, #cancel-comment-reply-link:hover, .comments-container #submit:hover,
+.post-content .button:hover, .widget .button:hover, .post-content a.button:hover, .widget a.button:hover,
+button:hover, input[type=reset]:hover, input[type=submit]:hover {
+	color: #fff;
+	background: #123566;
+}
+
+.more-link:active, .read-more:active, .post-edit-link:active, .button:active,
+.post-navigation .previous-posts a:active, .post-navigation .next-posts a:active,
+.comment-reply-link:active, .comment-navigation a:active, #cancel-comment-reply-link:active, .comments-container #submit:active,
+.post-content .button:active, .widget .button:active, .post-content a.button:active, .widget a.button:active,
+button:active, input[type=reset]:active, input[type=submit]:active {
+	color: #0c2344;
+}
+
+.post-author-inner {
+	border: 1px solid #cedff3;
+	background: #e8f2fe;
+}
+
+.post-footer a.comments-link:hover {
+	color: #123566;
+	border-color: #123566;
+}
+
+.after-posts-widgets-active {
+	background: #e7f2ff;
+	border: 1px solid #cedff3;
+}
+
+.comments-area, #comments-container.comments-container.comments-container-has-comments .comments-area {
+	background: #e8f2fe;
+	border: 1px solid #cedff3;
+}
+
+h5.comments-title, .comment-reply-title {
+	color: #123566;
+}
+
+.comment-content-container {
+	background: #fff;
+	border: 1px solid #cedff3;
+}
+
+.comment-form-comment #comment {
+	border: 1px solid #bbd0e9;
+}
+
+
+.form-allowed-tags {
+	border: 1px dotted #bbd0e9;
+}
+
+.page-numbers li .page-numbers, .page-numbers li  span.current, .page-numbers li  span.dots {
+	background: #3c639a;
+}
+
+.page-numbers li  span.dots {
+	background: #6c92c7;
+}
+
+.page-numbers li  span.current {
+	background: #587bac;
+}
+
+ul.page-numbers li a.page-numbers:hover {
+	background: #123566;
+}
+
+ul.page-numbers li a.page-numbers:active {
+	color: #0c2344;
+}
+
+#footer {
+	background: #e7f2ff;
+	box-shadow: inset 1px 4px 7px -6px #3c639a;
+}
+
+/* WooCommerce */
+.woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus {
+	background: #123566 !important;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:active, .woocommerce nav.woocommerce-pagination ul li a:active, .woocommerce #content nav.woocommerce-pagination ul li a:active, .woocommerce #content nav.woocommerce-pagination ul li a:active, .woocommerce-page nav.woocommerce-pagination ul li a:active, .woocommerce-page nav.woocommerce-pagination ul li a:active, .woocommerce-page #content nav.woocommerce-pagination ul li a:active, .woocommerce-page #content nav.woocommerce-pagination ul li a:active {
+	background: #0c2344 !important;
+}
+
+/* Newsletter */
+.mc-gravity .gform_heading, .mc_gravity .gform_heading, .mc-newsletter .gform_heading, .mc_newsletter .gform_heading,
+.mc-gravity_wrapper .gform_heading, .mc_gravity_wrapper .gform_heading, .mc-newsletter_wrapper .gform_heading, .mc_newsletter_wrapper .gform_heading {
+	background: #3c639a;
+	color: #fff;
+}
+
+.mc-gravity-confirmation, .mc_gravity-confirmation, .mc-newsletter-confirmation, .mc_newsletter-confirmation {
+	background: #3c639a;
+	color: #fff;
+}
+
+
+@media only screen and (max-width : 768px) {
+	.top-bar {
+		background: #3c639a;
+	}
+
+	.mobile-nav-button {
+		border-right: 1px solid #587bac;
+	}
+
+	.mobile-nav-button.open {
+		background: #123566;
+	}
+
+	.mobile-menu {
+		background: #3c639a;
+	}
+
+	.mobile-menu li.menu-label {
+		color: #ccc;
+	}
+
+	.mobile-menu li {
+		border-bottom: 1px solid #587bac;
+	}
+
+	.mobile-menu li li, .mobile-menu li li li {
+		border-top: 1px solid #587bac;
+		border-bottom: none;
+	}
+
+	.mobile-menu li a:hover {
+		background: #123566;
+	}
+
+	.mobile-menu .mobile-nav-close-button {
+		border-right: 1px solid #587bac;
+	}
+}

@@ -1,0 +1,122 @@
+==========================================
+Theme: Capture Free
+Author: Slocum Themes/Slocum Design Studio
+Author URI: http://slocumthemes.com/
+Current Version: 1.1.7
+==========================================
+
+
+1.1.7 // November 24 2014
+-------------------------
+- Updated to latest version of SDS Core
+- Updated editor-style.css to better account for new core WordPress editor CSS adjustments in 4.0
+- Changed add_filter() function on 'wp_head' action to add_action()
+- Added WordPress 4.1 title-tag support and moved all meta tags from <head> element to 'wp_head'
+- Reorganized file structure
+- Updated theme description
+- Fixed functionality on mobile menu for showing/hiding sub menu items
+- Fixed social media icon output in mobile menu
+- Minor adjustments to CSS
+- Fixed possible PHP warning with "mc-gravity" Gravity Forms functionality
+- Fixed "mc-gravity" functionality for checking if form contained correct CSS classes
+
+1.1.6 // October 20 2014
+------------------------
+- Updated to latest version of SDS Core
+- Fixed overlap of Primary Menu on Social Media Icons
+- Added CSS classes on sidebar containers for better CSS targeting (added "widgets" and "no-widgets" classes)
+- Added minimal IE8 support (prevents white screen issue; issue was due to SVG assets and Capture Slideshow JS)
+- Adjusted WooCommerce support functionality (adjust deprecated argument in woocommerce_related_products() function)
+- Added Gravity Forms .mc-gravity support
+- Added Header Call to Action Sidebar support
+- Updated POT file
+
+1.1.5 // July 17 2014
+---------------------
+- Fixed blurry display issue of WooCommerce shop thumbnails
+- Fixed bug where widget "tuck" effect did not recognize the Customizer background color property
+- Added social media display to responsive view navigation panel (was previously hidden on responsive views)
+- Adjusted CSS to ensure the top bar "sticks" to the top of the window on responsive views
+- Removed "Secondary Sidebar" for now as it was not used in this theme
+
+1.1.4 // July 02 2014
+---------------------
+- Updated to latest version of SDS Core
+- Updated CSS to accommodate new HTML markup
+- Adjusted CSS for Jetpack Sharing buttons on blog archive
+
+1.1.2 // June 04 2014
+--------------------
+- Updated to latest version of SDS Core (contains fixes for Theme Customizer and fixes PHP warnings)
+- Fixed clearing display bug (comments)
+- Better bbPress & BuddyPress support
+- Update .pot file
+
+1.1.1 // May 5 2014
+-------------------
+- Fixed Capture Slideshow JavaScript bug due to BackboneJS update in WordPress 3.9
+
+1.1.0 // April 23 2014
+----------------------
+- Added functionality to adjust background/content color defaults based on color scheme selected in Theme Options
+- Updated to latest version of SDS Core
+- Added load_theme_textdomain() function and .pot translation file
+- Moved $content_width declaration into after_setup_theme hook
+
+1.0.9 // April 18 2014
+----------------------
+- Fix usort PHP error in < PHP 5.3
+
+1.0.8 // April 18 2014
+----------------------
+- Updated to latest venison of SDS Core (contains bugfix in logo controller and new filter for web fonts)
+
+1.0.7
+-----
+- Updating to latest version of SDS Core (Theme Customizer)
+- Added various bits of Theme Customizer functionality
+
+1.0.6
+-----
+- Added HTML5 support for various default elements (search form, comments-form, comments-list)
+- Updated to newest version of SDS Core ("Default" Web Font Label)
+- Changed order of files loaded in functions.php
+- Fixed display bug when Yoast Seo was installed, and breadcrumbs were not enabled but the breadcrumb container was visible
+- Added WooCommerce support to theme description
+
+1.0.5
+-----
+- Removing reference to Github plugin
+
+1.0.3
+-----
+- Fixed call to missing Capture slideshow minified file
+
+1.0.2
+-----
+- Fixed border colors on alternative color schemes
+- Fixed spacing in 'int' casting declaration
+- Added WP gallery slideshow functionality
+- Fixed issue with web fonts where Damion and Oswald fonts were not loaded when a font besides the default were chosen; added Damion and Oswald to array keys in sds_web_fonts() function
+- Closed Capture Slideshow on collection fetch failure
+- Fixed bug where fallback primary nav was displayed on mobile
+- Styled WordPress galleries on mobile view
+- Added hammer.js for mobile swipe events on gallery
+- Adjusted size and position of post meta
+- Removed background and border from image captions (galleries)
+- Fixed bug where Featured Image/Video meta box would appear on posts that did not support post-thumbnails (i.e. attachments)
+- Updated SDS Core (01/21/2014)
+- Switched child theme functionality check to use is_child_theme()
+- Fixed no posts message display
+- Added WooCommerce support
+- Adjusted single image attachment template display (moved next/previous links up higher)
+- Fixed pagination display in color scheme styles
+
+
+1.0.1
+-----
+- Added slideshow overlay and new slideshow icon to single posts and blog archive
+
+1.0.0
+-----
+- New Theme
